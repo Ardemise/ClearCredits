@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAR CREDITS | Service-Backed Credit Infrastructure</title>
+    <meta name="description" content="Service-backed credits. Clean accounting. Real redemption. A non-speculative credit system for real-world use.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+            background: #F6F5F2;
+            color: #2F3437;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            padding: 48px 0 32px;
+            border-bottom: 1px solid #E0DFDA;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #1C1F21;
+        }
+
+        .hero {
+            padding: 120px 0 100px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+            color: #1C1F21;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
+        }
+
+        .subheadline {
+            font-size: 20px;
+            color: #2F3437;
+            max-width: 680px;
+            margin: 0 auto 48px;
+            line-height: 1.5;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            padding: 16px 40px;
+            background: #1C1F21;
+            color: #F6F5F2;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+            border-radius: 4px;
+            transition: background 0.2s;
+            letter-spacing: 0.3px;
+        }
+
+        .cta-primary:hover {
+            background: #2F3437;
+        }
+
+        section {
+            padding: 80px 0;
+            border-bottom: 1px solid #E0DFDA;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #7E9B8A;
+            margin-bottom: 32px;
+        }
+
+        .content-block {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #2F3437;
+            max-width: 680px;
+        }
+
+        .steps {
+            display: grid;
+            gap: 48px;
+            margin-top: 48px;
+        }
+
+        .step {
+            display: grid;
+            grid-template-columns: 60px 1fr;
+            gap: 24px;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #1C1F21;
+            color: #F6F5F2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .step-content h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1C1F21;
+            margin-bottom: 8px;
+        }
+
+        .step-content p {
+            font-size: 16px;
+            color: #2F3437;
+            line-height: 1.6;
+        }
+
+        .audience-grid {
+            display: grid;
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .audience-item h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1C1F21;
+            margin-bottom: 12px;
+        }
+
+        .audience-item ul {
+            list-style: none;
+            font-size: 16px;
+            color: #2F3437;
+        }
+
+        .audience-item li {
+            padding: 8px 0;
+            padding-left: 24px;
+            position: relative;
+        }
+
+        .audience-item li:before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: #7E9B8A;
+        }
+
+        .trust-signal {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .trust-signal p {
+            font-size: 24px;
+            font-weight: 500;
+            color: #1C1F21;
+            letter-spacing: -0.3px;
+        }
+
+        .final-cta {
+            text-align: center;
+            padding: 100px 0 120px;
+        }
+
+        .final-cta h2 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #1C1F21;
+            margin-bottom: 32px;
+            text-transform: none;
+            letter-spacing: -0.5px;
+        }
+
+        footer {
+            padding: 48px 0;
+            text-align: center;
+            font-size: 14px;
+            color: #7E9B8A;
+            border-top: 1px solid #E0DFDA;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .subheadline {
+                font-size: 18px;
+            }
+
+            .hero {
+                padding: 80px 0 60px;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .step {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .step-number {
+                width: 48px;
+                height: 48px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">CLEAR CREDITS</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Service-Backed Credits.<br>Clean Accounting.<br>Real Redemption.</h1>
+            <p class="subheadline">CLEAR CREDITS is a non-speculative credit system that allows services to be issued, tracked, and redeemed with transparency and discipline.</p>
+            <a href="mailto:contact@clearcredits.work" class="cta-primary">Contact Today</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>What It Is</h2>
+            <div class="content-block">
+                <p>CLEAR CREDITS is a service-backed credit system designed for real-world use. Credits are issued against actual services, tracked through a transparent ledger, and redeemed through verified delivery. No speculation. No volatility. Just clean value exchange between providers and customers. This is infrastructure for businesses and individuals who need to issue, track, and honor service obligations without the noise of financial markets or crypto speculation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Issue</h3>
+                        <p>Credits are created against real services. Each credit represents a clear, redeemable obligation tied to delivery, not speculation.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Track</h3>
+                        <p>Every credit is recorded in a transparent ledger. Obligations are visible, accountable, and structured for clean reconciliation.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Redeem</h3>
+                        <p>Credits are honored through verified service delivery. No expiration games. No loopholes. Just fulfillment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Who It's For</h2>
+            <div class="audience-grid">
+                <div class="audience-item">
+                    <h3>Businesses</h3>
+                    <ul>
+                        <li>Issue service credits without handling refunds</li>
+                        <li>Track obligations cleanly</li>
+                        <li>Reduce disputes and ambiguity</li>
+                        <li>Create structured redemption paths</li>
+                    </ul>
+                </div>
+                <div class="audience-item">
+                    <h3>Customers</h3>
+                    <ul>
+                        <li>Clear understanding of what's owed</li>
+                        <li>No expiration gimmicks</li>
+                        <li>Redeem for real services</li>
+                        <li>Trust through transparency</li>
+                    </ul>
+                </div>
+                <div class="audience-item">
+                    <h3>Service Providers</h3>
+                    <ul>
+                        <li>Non-speculative by design</li>
+                        <li>Ledger-based tracking</li>
+                        <li>Service-anchored value</li>
+                        <li>Infrastructure-grade reliability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust-signal">
+        <div class="container">
+            <p>Service-backed. Non-speculative. Ledger-based.</p>
+        </div>
+    </section>
+
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to build with clarity?</h2>
+            <a href="mailto:contact@clearcredits.work" class="cta-primary">Contact Today</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CLEAR CREDITS. Service-Backed Credit Infrastructure.</p>
+        </div>
+    </footer>
+</body>
+</html>
