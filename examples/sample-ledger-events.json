@@ -1,0 +1,26 @@
+[
+  {
+    "id": "evt_0001",
+    "type": "CREDIT_ISSUED",
+    "timestamp": "2025-12-14T14:00:00Z",
+    "account_id": "acct_demo_001",
+    "program_id": "prog_services_001",
+    "amount": 15000,
+    "currency": "USD_CENTS",
+    "actor": "system",
+    "reason_code": "PURCHASE_PREPAID_SERVICE",
+    "reference": { "order_id": "ord_9011" }
+  },
+  {
+    "id": "evt_0002",
+    "type": "CREDIT_REDEEMED",
+    "timestamp": "2025-12-20T18:30:00Z",
+    "account_id": "acct_demo_001",
+    "program_id": "prog_services_001",
+    "amount": 5000,
+    "currency": "USD_CENTS",
+    "actor": "provider",
+    "reason_code": "SERVICE_REDEMPTION",
+    "reference": { "service_id": "svc_hair_220", "provider_id": "prov_003" }
+  }
+]
